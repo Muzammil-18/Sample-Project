@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+nav{
+    font-family:"Ms Madi";
+}
+bpdy{
+    font-family: "Teko";
+}
