@@ -17,5 +17,12 @@ nav{
 }
 
 .main{
-    background-image: url("https://www.pcclean.io/wp-content/uploads/2020/4/YNrM7b.jpg");
+    background-image: url("https://images.unsplash.com/photo-1514810771018-276192729582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNreSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-size:cover;
+}
+.form{
+    font-family: "Abril+Fatface";
+}
+.height{
+    height: 700px;
 }
