@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.lexend{
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.big{
+    font-family:'Big Shoulders Display';
+    font-weight: 700;
+}
+
+.bg-bright-orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.bg-dark-cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.bg-very-dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.text-color{
+    color: hsla(0, 0%, 100%, 0.75);
+}
