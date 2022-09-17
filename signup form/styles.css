@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Red{
+    color: hsl(0, 100%, 74%);
+}
+
+.bg-Red{
+    background-color: hsl(0, 100%, 74%);
+}
+
+.Green{
+    color: hsl(154, 59%, 51%);
+}
+
+.bg-Green{
+    background-color: hsl(154, 59%, 51%);
+}
+
+.Blue{
+    color: hsl(248, 32%, 49%);
+}
+
+.bg-Blue{
+    background-color: hsl(248, 32%, 49%);
+}
+
+.dark-Blue{
+    color:hsl(249, 10%, 26%);
+}
+
+.bg-dark-Blue{
+    background-color: hsl(249, 10%, 26%);
+}
+
+.grayish-Blue{
+    color: hsl(246, 25%, 77%);
+}
+
+.bg-grayish-Blue{
+    background-color: hsl(246, 25%, 77%);
+}

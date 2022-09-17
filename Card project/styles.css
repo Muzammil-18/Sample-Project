@@ -28,3 +28,19 @@
 .text-color{
     color: hsla(0, 0%, 100%, 0.75);
 }
+.height{
+    height: 475px;
+    width: 290px;
+}
+.text-orange{
+    color: hsl(31, 77%, 52%);
+}
+.text-dark-cyan{
+    color: hsl(184, 100%, 22%) ;
+}
+.margin-top{
+    margin-top: 57px;
+}
+.text-very-dark-cyan{
+    color: hsl(179, 100%, 13%);
+}

@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | 3-column preview card component</title>
-  <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Lexend+Deca">
-  <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display">
   <link rel="stylesheet" href="styles.css">
 
-  
+
 </head>
+
 <body>
-      <div class="h-44 bg-bright-orange">
-        <img src="images/icon-sedans.svg" alt="">
+  <div>
+    <div class="flex lg:flex-row flex-col justify-center items-center  mt-10 lg:mt-0">
+      
+      <div class="flex flex-col height bg-bright-orange lg:mt-20 p-9  ">
+        <div class="justify-start items-start"><img src="images/icon-sedans.svg" alt=""></div>
+        <div class="big text-color mt-5 text-4xl">SEDANS</div>
+        <div class="text-color lexend mt-5">Choose a sedan for it's affordability and excellent fuel economy. Ideal for
+          cruising in the city or on your next road trip. </div>
+        <div>
+          <button class="bg-white rounded-full px-6 py-3 text-orange mt-20">Learn More</button>
+        </div>
       </div>
+      <div class="flex flex-col height bg-dark-cyan lg:mt-20 p-9  ">
+        <div class="justify-start items-start"><img src="images/icon-suvs.svg" alt=""></div>
+        <div class="big text-color mt-5 text-4xl">SUVS</div>
+        <div class="text-color lexend mt-5">Take an suv for it's spacious, interior, power,and versatality. Perfect for
+          your next family vacation and off-road adventures. </div>
+        <div>
+          <button class="bg-white rounded-full px-6 py-3 text-dark-cyan margin-top">Learn More</button>
+        </div>
+      </div>
+        <div class="flex flex-col height bg-very-dark-cyan lg:mt-20 p-9  ">
+          <div class="justify-start items-start"><img src="images/icon-luxury.svg" alt=""></div>
+          <div class="big text-color mt-5 text-4xl">LUXURY</div>
+          <div class="text-color lexend mt-5">Cruise in the best car brands without the bloated prices. Enjoy the
+            enhanced comfort of a luxury rental and arrive in style. </div>
+          <div>
+            <button class="bg-white rounded-full px-6 py-3 text-very-dark-cyan mt-20">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
