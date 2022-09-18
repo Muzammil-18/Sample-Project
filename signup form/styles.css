@@ -3,6 +3,25 @@
 @tailwind utilities;
 
 
+.width{
+    width: 375px;
+}
+.font{
+    font-family: "poppins",Arial, Helvetica, sans-serif;
+    
+}
+.fontweight700{
+    font-weight: 700;
+}
+.fontweight600{
+    font-weight: 600;
+}
+.fontweight500{
+    font-weight: 500;
+}
+.fontweight400{
+    font-weight: 00;
+}
 .Red{
     color: hsl(0, 100%, 74%);
 }
