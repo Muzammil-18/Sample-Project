@@ -22,6 +22,7 @@
 .fontweight400{
     font-weight: 00;
 }
+
 .Red{
     color: hsl(0, 100%, 74%);
 }
@@ -34,7 +35,7 @@
     color: hsl(154, 59%, 51%);
 }
 
-.bg-Green{
+.bg-green{
     background-color: hsl(154, 59%, 51%);
 }
 
@@ -49,7 +50,9 @@
 .dark-Blue{
     color:hsl(249, 10%, 26%);
 }
-
+.fs{
+    font-size: 9px;
+}
 .bg-dark-Blue{
     background-color: hsl(249, 10%, 26%);
 }
@@ -70,4 +73,7 @@
 .background-desktop{
     background-image: linear-gradient(hsla(0, 100%, 74%, 0.6), hsla(0, 100%, 74%, 0.6)),
     url("images/bg-intro-desktop.png");
+}
+::placeholder{
+    color: red;
 }
