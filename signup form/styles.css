@@ -66,8 +66,8 @@
 }
 
 .background-mobile{
-    background-image: linear-gradient(hsla(0, 100%, 74%, 0.6), hsla(0, 100%, 74%, 0.6)),
-    url("images/bg-intro-mobile.png");
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
 }
 
 .background-desktop{
